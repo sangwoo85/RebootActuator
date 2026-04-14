@@ -8,8 +8,12 @@ management:
   endpoints:
     web:
       exposure:
-        include: health,info
+        include: health,info,metrics
   endpoint:
     health:
       probes:
         enabled: true
+  metrics:
+    export:
+      defaults:
+        enabled:true

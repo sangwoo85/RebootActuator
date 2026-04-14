@@ -11,7 +11,7 @@
     <groupId>com.wooya</groupId>
     <artifactId>RebootActuator</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>RebootActuator</name>
     <description>RebootActuator</description>
     <url/>
